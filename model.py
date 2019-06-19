@@ -26,7 +26,6 @@ class Net1(torch.nn.Module):
         x = x.unsqueeze(2)
         x = F.relu(self.conv1(x))
         x = F.relu(self.conv2(x))
-  
         x = F.relu(self.conv3(x))
         x = F.relu(self.conv4(x))
         x = torch.sigmoid(self.conv5(x))

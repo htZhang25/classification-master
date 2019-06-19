@@ -107,5 +107,9 @@ for epoch in range(max_epoch):
 
     #save txt 
     for i in range(len(result)):
+<<<<<<< HEAD
         f.write(str(result[i]))  
+=======
+        f.write(str(result[i]))   
+>>>>>>> 0fde2a24b9041192f1928d9cd949c257d62994eb
         f.write("\n")  
