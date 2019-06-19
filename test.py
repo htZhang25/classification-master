@@ -107,5 +107,5 @@ for epoch in range(max_epoch):
 
     #save txt 
     for i in range(len(result)):
-        f.write(str(result[i]))   #将字符串写入文件中
+        f.write(str(result[i]))  
         f.write("\n")  
