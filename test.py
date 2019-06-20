@@ -73,7 +73,7 @@ for epoch in range(max_epoch):
             else:
                 label_out[list(label[c]).index(1)+1] += 1
 
-        # copute accuracy
+        # compute accuracy
         for c in range(predict.shape[0]):
             if label[c, predict[c]] == 1:
                 running_corrects += 1
